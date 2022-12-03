@@ -1,3 +1,8 @@
+.main-container {
+  display: flex;
+  justify-content: baseline;
+}
+
 .dashboard-container {
   background-image: url("../assets/homepage-bubble.svg");
   background-position: center;
@@ -5,4 +10,91 @@
   background-size: cover;
   height: 100vh;
   color: white;
+}
+
+.panel-container {
+  margin: 35px 0;
+}
+
+.overview-container {
+  width: 60%;
+  margin: 0 20px;
+}
+
+.ov-details {
+  width: 100%;
+  border: 1px solid #6100ff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.values h1 {
+  color: #ea00c4;
+}
+.values h2 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.transaction-container {
+  background-color: #343434;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  border-bottom: 1px solid #757575;
+  padding: 10px;
+}
+
+.value {
+  display: flex;
+  width: 140px;
+  justify-content: space-around;
+}
+
+.transaction-container h3 {
+  text-align: right;
+  padding-top: 10px;
+  color: #969696;
+  cursor: pointer;
+}
+
+.btn-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+
+.btn-container button {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.btn-container button:first-child {
+  background: linear-gradient(to right, #7787ff, #a34dcd);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-container button:last-child {
+  background: #646464;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
