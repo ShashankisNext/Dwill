@@ -8,17 +8,25 @@ import CreateLock from "./components/CreateLock";
 import ModifyLock from "./components/ModifyLock";
 import WalletLink from "./components/WalletLink";
 import "./styles/Home.css";
+import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
+import { useAddress } from "@thirdweb-dev/react";
 
 export default function Home() {
+  var address;
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Homepage/>} />
-        <Route path="/linkwallets" element={<WalletLink/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
-        <Route path="/dashboard/createlock" element={<CreateLock/>} />
-        <Route path="/dashboard/modifylock" element={<ModifyLock/>} />
-      </Routes>
-    </div>
-  )
+    <ThirdwebProvider desiredChainId={ChainId.Goerli}>
+      <div>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route
+            path="/linkwallets"
+            element={<WalletLink address={address} />}
+          />
+          <Route path="/dashboard" element={<Dashboard address={address} />} />
+          <Route path="/dashboard/createlock" element={<CreateLock />} />
+          <Route path="/dashboard/modifylock" element={<ModifyLock />} />
+        </Routes>
+      </div>
+    </ThirdwebProvider>
+  );
 }

@@ -36,6 +36,12 @@ const ModifyLock = () => {
               </div>
 
               <div className="modifylock_values">
+                <h2>Set the secondary Inactivity Duration:</h2>
+                <input className="modifylock-inputs" placeholder="Duration" />
+                <img className="input_pic" src={logo} />
+              </div>
+
+              <div className="modifylock_values">
                 <h2>
                   Notification Email Address{" "}
                   <span style={{ color: "grey" }}>(optional)</span>:
