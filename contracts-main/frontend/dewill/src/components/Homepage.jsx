@@ -7,6 +7,7 @@ import lock from "../assets/lock.svg";
 import funds from "../assets/funds.svg";
 import Header from "./Header";
 import "./Homepage.css";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -27,7 +28,9 @@ const Homepage = () => {
             <img src={dc} alt="" srcset="" />
           </div>
         </div>
-        <button className="home-btn">Get Started</button>
+        <Link to="/linkwallets">
+          <button className="home-btn">Get Started</button>
+        </Link>
         <div className="desc-container">
           <h2>How does it work?</h2>
           <div className="blur-container">
