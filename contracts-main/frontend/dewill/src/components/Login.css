@@ -1,0 +1,71 @@
+.login-container {
+  background-image: url("../assets/homepage-bubble.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  padding: 20px 50px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 70vh;
+  color: white;
+  border: 2px solid #a44dcd;
+  border-radius: 20px;
+}
+
+.form-wrapper h1 {
+  margin-top: 30px;
+}
+
+.disclaimer {
+  color: #666666;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  background: none;
+  border: 1px solid #8a8787;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 25px;
+  width: 300px;
+  color: #8a8787;
+}
+
+.login-btn {
+  background-color: #7787ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 300px;
+  cursor: pointer;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: #7787ff;
+  margin: 15px auto;
+}
