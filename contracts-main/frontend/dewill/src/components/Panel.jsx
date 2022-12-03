@@ -8,7 +8,7 @@ import share from "../assets/Dashboard/share.svg";
 import { Link } from "react-router-dom";
 
 const Panel = () => {
-  const [lockCreated, setlockCreated] = useState(false)
+  const [lockCreated, setlockCreated] = useState(false);
   return (
     <div className="panel">
       <h3>
@@ -17,7 +17,9 @@ const Panel = () => {
       <div className="panel-menu">
         <div className="panel-item">
           <img src={overview} alt="" />
-          <h3>Overview</h3>
+          <Link to="/dashboard">
+            <h3 className="panellinks">Overview</h3>
+          </Link>
         </div>
         <div className="panel-item">
           <img src={lock} alt="" />
