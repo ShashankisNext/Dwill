@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.createLockDashbord {
+    background-image: url("../assets/homepage-bubble.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.PCL {
+    display: flex;
+}
+
+.formHeading {
+    padding-top: 20px;
+}
+
+.createLock {
+    margin: 50px 0 0 50px;
+    padding: 40px;
+    border: 1px solid #6100ff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #979797;
+}
+
+.createLockTable {
+    margin: 20px;
+    /* border: 1px solid; */
+    border-radius: 50px;
+    background-color: #292929;
+    color: #979797;
+    border-spacing: 0;
+}
+
+.tableHeading {
+    margin-top: 30px;
+}
+
+.tableHead {
+    font-weight: 800;
+}
+
+.tableData {
+    border-bottom: 1px solid #6100ff;
+    border-collapse: collapse;
+    width: 25%;
+    height: 40px;
+}
