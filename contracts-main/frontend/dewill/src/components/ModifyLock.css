@@ -1,26 +1,18 @@
 .modifylock {
   display: inline;
 }
-.modifylock-details {
-  width: 100%;
-  border: 1px solid #6100ff;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .modifylock_values {
 margin: 5px 0;
 display: flex;
 justify-content: space-between;
-
+}
+.modifylock_values h2 {
+    width: 50%;
 }
 .modifylock_values-container {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
-  padding: 0px 100px;
+  padding: 0px 40px;
   width: 90%;
   margin: 20px auto;
 }
@@ -41,4 +33,7 @@ justify-content: space-between;
 
 .input_pic{
     height: 35px;
+}
+.input_pic:hover{
+    cursor:pointer
 }
