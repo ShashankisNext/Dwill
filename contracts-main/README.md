@@ -2,7 +2,7 @@
 
 ## What problem are we trying to solve
 
-Refer this link to get a know-how of the problem we are trying to solve : : : : https://docs.google.com/document/d/1fQteovk-6yCp8EBWOEOU0lVGwIoC0gEQnG_Y_aqAKj4
+Refer this link to get a know-how of the problem we are trying to solve : : : : https://docs.google.com/document/d/1AxaU1wih7OU_pnTle6II6SAoEWx-p-pnPuA5H2ys_f8/edit
 
 ## How are we planning to solve the problem aka the Implementation
 
