@@ -1,0 +1,36 @@
+.panel {
+  border: 1px solid #6100ff;
+  border-radius: 40px;
+  height: 500px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  color: #979797;
+}
+
+.panel h3 u {
+  font-size: 30px;
+}
+
+.panel-menu {
+  width: 80%;
+}
+
+.panel-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 40px auto;
+  cursor: pointer;
+}
+
+.panel-item h3:hover {
+  color: #ea00c4;
+}
+
+.panel-item img {
+  height: 30px;
+}

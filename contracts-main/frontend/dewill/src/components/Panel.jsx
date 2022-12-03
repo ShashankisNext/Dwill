@@ -1,4 +1,5 @@
 import React from "react";
+import "./Panel.css";
 import overview from "../assets/Dashboard/overview.svg";
 import lock from "../assets/Dashboard/lock.svg";
 import profile from "../assets/Dashboard/profile.svg";
