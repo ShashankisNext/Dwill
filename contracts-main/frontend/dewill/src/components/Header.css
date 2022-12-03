@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100px;
   color: white;
   justify-content: center;
@@ -27,7 +27,6 @@
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
-  /* border: 1px solid white; */
   font-size: 20px;
   margin-right: 5%;
 }
