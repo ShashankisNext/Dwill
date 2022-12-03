@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard";
 import Header from "./components/Header";
 import Homepage from "./components/Homepage";
 import Login from "./components/Login";
+import ModifyLock from "./components/ModifyLock";
 import "./styles/Home.css";
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         <Route path="/linkwallets" element={<Dashboard/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
         {/* <Route path="/dashboard/createlock" element={<CreateLock/>} /> */}
-        {/* <Route path="/dashboard/modifylock" element={<ModifyLock/>} /> */}
+        <Route path="/dashboard/modifylock" element={<ModifyLock/>} />
       </Routes>
     </div>
   )
