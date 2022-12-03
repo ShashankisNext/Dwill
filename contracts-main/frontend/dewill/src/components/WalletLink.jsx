@@ -5,6 +5,7 @@ import wallet1 from "../assets/Wallets/wallet1.svg";
 import wallet2 from "../assets/Wallets/wallet2.svg";
 import wallet3 from "../assets/Wallets/wallet3.svg";
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
+import { Link } from "react-router-dom";
 
 
 // import wallet4 from "../assets/Wallets/wallet4.svg";
@@ -46,7 +47,9 @@ const WalletLink =(props)=>{
             </div>
             <div>
             <ConnectWallet />
-                {/* <button className="link_button">CONTINUE</button> */}
+            <Link to="/dashboard">
+                <button className="link_button">CONTINUE</button>
+            </Link>
             </div>   
             </div>
         </div>
