@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font: #fff;   
 }
 
 .createLockDashbord {
@@ -16,6 +15,10 @@
 
 .PCL {
     display: flex;
+}
+
+.formHeading {
+    padding-top: 20px;
 }
 
 .createLock {
@@ -32,7 +35,7 @@
 }
 
 .createLockTable {
-    margin: 50px 0 0 50px;
+    margin: 20px;
     /* border: 1px solid; */
     border-radius: 50px;
     background-color: #292929;
@@ -40,12 +43,16 @@
     border-spacing: 0;
 }
 
+.tableHeading {
+    margin-top: 30px;
+}
+
 .tableHead {
     font-weight: 800;
 }
 
 .tableData {
-    border: 1px solid #6100ff;
+    border-bottom: 1px solid #6100ff;
     border-collapse: collapse;
     width: 25%;
     height: 40px;
