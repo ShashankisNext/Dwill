@@ -1,0 +1,8 @@
+.dashboard-container {
+  background-image: url("../assets/homepage-bubble.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}

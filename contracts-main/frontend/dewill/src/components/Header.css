@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+}
+
+.logo-container {
+  margin-left: 5%;
+}
+
+.header-menu {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.header-menu a {
+  color: white;
+  text-decoration: none;
+}
