@@ -1,0 +1,55 @@
+.wallet-container {
+    background-image: url("../assets/homepage-bubble.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+  }
+
+.wallet-main-container{
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    border: 3px solid #A44DCD;
+    text-align: center;
+    margin-inline: 400px;
+}
+.t1{
+    padding-bottom: 35px;
+}
+.t2{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.icon-grid1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.grid a img{
+    width: 50px;
+}
+.wallet_img_link{
+    background-color: #393939;
+    margin: 20px;
+    padding: 10px;
+}
+.link_button{
+    margin-top: 10px;
+    padding: 15px 75px;
+    background-color: #414141;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
